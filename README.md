@@ -1,2 +1,2 @@
 # Logical-Problems
-Interview Coding Questions 
+This Repo contains 50 Coding Problems in C#
