@@ -4,24 +4,30 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace Recursion___Multiples___1_to_100
+namespace Replace_all_0_with_5
 {
     internal class Program
     {
-        static void  Mult(int number)
-        {
-            if(number > 100)    //If number is grater than 100 , recursion will stop
-                return;
-
-            Console.WriteLine(number); // This will print the number
-            Mult(number + 8);   // Recursive Function call itself untill number exceeds 100
-        }
+        public static string Replace0with5(string input) { 
             
-
+            char[] chars = new char[input.Length];
+            for (int i = 0; i < input.Length; i++) {
+                if (input[i] == '0') { 
+                    chars[i] = '5';
+                }
+                else
+                {
+                    chars[i] = input[i];
+                }
+            }
+            return new string(chars);
+            
+        }
         static void Main(string[] args)
         {
-            Mult(8);
-            Console.ReadKey();
+            string input = "1050";
+            string result = Replace0with5(input);
+            Console.WriteLine(result);
         }
     }
 }
