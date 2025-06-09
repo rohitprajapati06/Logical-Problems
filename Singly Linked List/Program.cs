@@ -1,5 +1,7 @@
 using System;
+
 namespace LinkedList{
+	
 class Node{
 	public int Data;
 	public Node Next;
@@ -101,5 +103,5 @@ class SinglyLinkedList{
 		Console.WriteLine("Total nodes in LinkedList :" +list.Count());
 
 	}
- }
+    }
 }
