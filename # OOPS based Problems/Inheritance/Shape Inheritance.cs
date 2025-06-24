@@ -1,10 +1,13 @@
 /*
-1. Shape Inheritance
-Problem:
-Create a base class Shape with properties like Color and a method Draw(). 
-Derive classes like Circle, Rectangle, and Triangle that override the Draw() method and add their own unique properties (like radius for Circle, width and height for Rectangle).
-*/
+										1. Shape Inheritance
+	  
+Problem: Create a base class Shape with properties like Color and a method Draw().Derive classes like Circle, Rectangle, and Triangle that override the Draw() method and
+add their own unique properties (like radius for Circle, width and height for Rectangle).
 
+Expected Concepts :  Base class , Derived class , Method overriding	
+
+*/
+ 
 using System;
 
 class Shape {
