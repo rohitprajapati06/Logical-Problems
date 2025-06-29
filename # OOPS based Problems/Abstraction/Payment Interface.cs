@@ -1,3 +1,6 @@
+/*
+Problem :  Create an abstract class Payment with an abstract method MakePayment(). Create derived classes CreditCardPayment, DebitCardPayment, NetBankingPayment that implement the method.
+*/
 using System;
 
 public abstract class Payment{
